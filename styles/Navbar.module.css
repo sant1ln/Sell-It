@@ -1,0 +1,64 @@
+
+.nav_container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 10vh;
+  position: sticky;
+  font-size:1.6rem;
+  border: 1px solid red /* To delete */
+}
+
+.nav_container_logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  width: 25%;
+}
+
+.nav_container_form{
+  width: 25%;
+  height: 35px;
+}
+
+.nav_container_form > input{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: none;
+  background-color: #b6cbe2;
+}
+
+.nav_container_options{
+  display: flex;
+  width: 35%;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_container_options > a{
+  margin: 0 5px;
+}
+
+.nav_container_cart{
+  display: flex;
+  width: 15%;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.nav_container_cart_icon{
+  width: 50px;
+}
+
+.nav_container_cart > span{
+  position: absolute;
+  top:1
+}
+
+
