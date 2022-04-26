@@ -8,7 +8,7 @@
   height: 10vh;
   position: sticky;
   font-size:1.6rem;
-  border: 1px solid red /* To delete */
+  border-bottom: 1px solid black /* To delete */
 }
 
 .nav_container_logo{
@@ -57,8 +57,16 @@
 }
 
 .nav_container_cart > span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  top:1
+  top: 30%;
+  width: 15px;
+  height: 15px;
+  border-radius: 25px;
+  background-color: #fff;
+  color:#000;
 }
 
 
