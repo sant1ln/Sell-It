@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import SellItLogo from '../public/sell_it_logo.png'
+import SellItLogo from '../../public/sell_it_logo.png'
 import { BsFillCartFill } from 'react-icons/bs'
 import styles from '../styles/Navbar.module.css'
 import { navMenu } from '../utils/nav-menu'
